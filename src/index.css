@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@theme {
+    /* Breakpoints */
+    --breakpoint-sm: 30rem;   /* 480px */
+    --breakpoint-md: 48rem;   /* 768px */
+    --breakpoint-lg: 63.75rem; /* 1020px */
+    --breakpoint-xl: 90rem;   /* 1440px */
+  
+    /* Colors */
+    --color-softBlue: hsl(231, 69%, 60%);
+    --color-softRed: hsl(0, 94%, 66%);
+    --color-grayishBlue: hsl(229, 8%, 60%);
+    --color-veryDarkBlue: hsl(229, 31%, 21%);
+  
+    /* Font Family */
+    --font-rubik: 'Rubik', sans-serif;
+    --custom-red: hsl(0, 100%, 27%)
+  }
+
+.red
+{
+    color: var(--custom-red);
+}
