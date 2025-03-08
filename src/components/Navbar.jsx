@@ -8,24 +8,24 @@ const Navbar = () => {
         {/* Logo image to be on top always */}
         <div className="z-30">
           <img
-            className="max-w-fit"
-            src="/src/assets/images/logo-bookmark.svg"
+            className="w-14 h-20"
+            src="/src/assets/images/grammarly-logo.svg"
             alt=""
           />
         </div>
         <div className="hidden items-center space-x-10 uppercase text-grayish-Blue md:flex">
-          <a href="#" className="tracking-wideset hover:text-softBlue">
+          <a href="#" className="tracking-wideset ">
             Features
           </a>
-          <a href="#" className="tracking-wideset hover:text-softBlue">
+          <a href="#" className="tracking-wideset ">
             Download
           </a>
-          <a href="#" className="tracking-wideset hover:text-softBlue">
+          <a href="#" className="tracking-wideset ">
             FAQ
           </a>
           <a
             href=""
-            className="px-8 py-2 text-white bg-softBlue border-softBlue border-2 rounded-lg shadow-md hover:text-softBlue hover:bg-white"
+            className="px-8 py-2 text-white border-2 rounded-lg shadow-md  hover:bg-white"
           >
             Login
           </a>

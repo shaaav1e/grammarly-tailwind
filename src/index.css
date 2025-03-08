@@ -11,16 +11,21 @@
   --color-softRed: hsl(0, 94%, 66%);
   --color-grayishBlue: hsl(229, 8%, 60%);
   --color-veryDarkBlue: hsl(229, 31%, 21%);
+  --color-redish: hsl(0, 100%, 27%);
+  --color-firefox: #ff7139;
+  --color-grammarlyGreen: #15C39A; /* Grammarly’s primary green */
+  --color-grammarlyDarkGreen: #009879; /* Darker version */
+  --color-grammarlyGray: #F9FAFB; /* Light gray background */
+  --color-grammarlyText: #1F2937;/* Dark gray for text */
+
 
   /* Font Family */
   --font-rubik: "Rubik", sans-serif;
-  --color-redish: hsl(0, 100%, 27%);
-  --color-firefox: #ff7139;
 }
 body {
-  font-family: var(--font-rubik);
+  font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
-  @apply container list-none;
+  @apply container list-none bg-grammarlyDarkGreen text-grammarlyGray;
 }
 @utility container {
   width: 80%;
@@ -41,7 +46,7 @@ body {
     height: 300px;
     left: 30%;
     clip-path: ellipse(150vw 100% at 0% 50%);
-    @apply absolute rounded-l-full top-52 bg-softBlue;
+    @apply absolute rounded-l-full top-52 bg-green-100;
   }
   .bg-tabs {
     width: 100%;
@@ -50,6 +55,6 @@ body {
     clip-path: ellipse(
       150vw 100% at 100% 50%
     ); /* Shift the focal point to the right */
-    @apply absolute rounded-r-full top-60 bg-softBlue;
+    @apply absolute rounded-r-full top-60 bg-green-100;
   }
 }
