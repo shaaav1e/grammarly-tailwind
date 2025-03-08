@@ -41,8 +41,8 @@ const FeaturesTab = () => {
               key={tab.id}
               className={`flex justify-center text-center mx-auto border-b md:border-b-0 cursor-pointer w-full md:w-1/3 whitespace-nowrap ${
                 activeTab === tab.id
-                  ? "border-b-4 border-softRed text-softRed"
-                  : "hover:text-softRed"
+                  ? "border-b-4 border-chromeGreen text-black"
+                  : "hover:text-chromeGreen"
               }`}
               onClick={() => setActiveTab(tab.id)}
             >
