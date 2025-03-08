@@ -1,23 +1,46 @@
 @import "tailwindcss";
 @theme {
-    /* Breakpoints */
-    --breakpoint-sm: 30rem;   /* 480px */
-    --breakpoint-md: 48rem;   /* 768px */
-    --breakpoint-lg: 63.75rem; /* 1020px */
-    --breakpoint-xl: 90rem;   /* 1440px */
-  
-    /* Colors */
-    --color-softBlue: hsl(231, 69%, 60%);
-    --color-softRed: hsl(0, 94%, 66%);
-    --color-grayishBlue: hsl(229, 8%, 60%);
-    --color-veryDarkBlue: hsl(229, 31%, 21%);
-  
-    /* Font Family */
-    --font-rubik: 'Rubik', sans-serif;
-    --custom-red: hsl(0, 100%, 27%)
-  }
+  /* Breakpoints */
+  --breakpoint-sm: 30rem; /* 480px */
+  --breakpoint-md: 48rem; /* 768px */
+  --breakpoint-lg: 63.75rem; /* 1020px */
+  --breakpoint-xl: 90rem; /* 1440px */
 
-.red
-{
-    color: var(--custom-red);
+  /* Colors */
+  --color-softBlue: hsl(231, 69%, 60%);
+  --color-softRed: hsl(0, 94%, 66%);
+  --color-grayishBlue: hsl(229, 8%, 60%);
+  --color-veryDarkBlue: hsl(229, 31%, 21%);
+
+  /* Font Family */
+  --font-rubik: "Rubik", sans-serif;
+  --color-redish: hsl(0, 100%, 27%);
+  --color-firefox: #ff7139;
+}
+body {
+  font-family: var(--font-rubik);
+  overflow-x: hidden;
+  @apply container list-none;
+}
+@utility container {
+  width: 80%;
+  margin-inline: auto;
+}
+.redy {
+  color: var(--custom-red);
+}
+.rubik {
+  font-family: var(--font-rubik);
+}
+
+/* instead of doing the --custom-red approach and using it in tailwind as redy, due to simply writing --color-redish allows tailwind's color to set it for bg and text, i just have to write text-redish and it will work*/
+
+@media (min-width: 1020px) {
+  .bg-hero {
+    width: 100%;
+    height: 300px;
+    left: 30%;
+    clip-path: ellipse(150vw 100% at 0% 50%);
+    @apply absolute rounded-l-full top-52 bg-softBlue;
+  }
 }

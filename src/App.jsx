@@ -1,15 +1,13 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1 class="font-rubik red text-3xl font-bold underline bg-slate-600">
-        Hello world!
-      </h1>
+      {/* <h1 class="container text-3xl  bg-amber-600">Hello world!</h1> */}
+      <Navbar />
+      <Hero />
     </>
   );
 }
