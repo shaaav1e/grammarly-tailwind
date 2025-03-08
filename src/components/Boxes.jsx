@@ -8,9 +8,10 @@ const Boxes = () => {
           Download the extension
         </h2>
         <p className="max-w-lg mx-auto text-center">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Reprehenderit saepe, neque, odio consectetur maiores nobis sunt
-          praesentium quisquam explicabo at dicta, autem ratione incidunt? Iure.
+          Boost your writing with Grammarly’s free browser extension! Whether
+          you’re composing emails, crafting social media posts, or working on
+          important documents, Grammarly helps you write clearer, mistake-free,
+          and more professional content in real time.
         </p>
       </div>
       <div className="py-32">
@@ -22,7 +23,7 @@ const Boxes = () => {
             <div className="flex justify-center items-center gap-4">
               <img
                 className="w-12 h-12"
-                src="/src/assets/images/logo-chrome.svg"
+                src="./src/assets/images/logo-chrome.svg"
                 alt=""
               />
               {/* TEXT */}
@@ -37,7 +38,7 @@ const Boxes = () => {
             <div className="flex justify-center items-center gap-4">
               <img
                 className="w-12 h-12"
-                src="/src/assets/images/windows-logo.png"
+                src="./src/assets/images/windows-logo.png"
                 alt=""
               />
               {/* TEXT */}
@@ -51,8 +52,8 @@ const Boxes = () => {
             {/* IMAGE */}
             <div className="flex justify-center items-center gap-4">
               <img
-                className="w-12 h-12"
-                src="/src/assets/images/mac-logo.webp"
+                className="w-16 h-12"
+                src="./src/assets/images/mac-logo.png"
                 alt=""
               />
               {/* TEXT */}

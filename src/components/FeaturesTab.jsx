@@ -9,21 +9,21 @@ const FeaturesTab = () => {
     {
       id: 1,
       title: "Grammar & Spelling",
-      image: "/src/assets/images/grammarly-1.webp",
+      image: "./src/assets/images/grammarly-1.webp",
       description:
         "Avoid embarrassing mistakes with real-time grammar and spelling corrections.",
     },
     {
       id: 2,
       title: "Simplify Your Tone",
-      image: "/src/assets/images/grammarly-2.webp",
+      image: "./src/assets/images/grammarly-2.webp",
       description:
         "Make your writing more concise and clear with tone adjustment suggestions.",
     },
     {
       id: 3,
       title: "Style & Clarity",
-      image: "/src/assets/images/grammarly-3.webp",
+      image: "./src/assets/images/grammarly-3.webp",
       description:
         "Enhance readability with smart style and clarity improvements.",
     },
@@ -35,7 +35,7 @@ const FeaturesTab = () => {
         <div className="bg-tabs"></div>
 
         {/* TABS */}
-        <div className="flex flex-col justify-center max-w-xl mx-auto mb-6 border-b md:space-x-10 md:flex-row items-center">
+        <div className="flex flex-col justify-center max-w-xl mx-auto border-b md:space-x-10 md:flex-row items-center">
           {tabs.map((tab) => (
             <div
               key={tab.id}

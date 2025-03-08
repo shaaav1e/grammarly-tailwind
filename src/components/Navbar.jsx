@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="z-30">
           <img
             className="w-14 h-20"
-            src="/src/assets/images/grammarly-logo.svg"
+            src="./src/assets/images/grammarly-logo.svg"
             alt=""
           />
         </div>

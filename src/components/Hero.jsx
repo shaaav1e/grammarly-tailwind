@@ -7,10 +7,10 @@ const Hero = () => {
         {/* Content */}
 
         <div className="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
-          <h1 className="text-3xl font-semibold text-center lg:text-6xl lg:text-left">
+          <h1 className="text-3xl font-semibold text-center lg:text-4xl lg:text-left">
             Enhance Your Writing with AI-Powered Assistance
           </h1>
-          <p className=" text-lg text-center  lg:text-2xl lg:text-left lg:mt-0 lg:mx-0">
+          <p className=" text-lg text-center  lg:text-xl lg:text-left lg:mt-0 lg:mx-0">
             Write with confidence using advanced grammar, spelling, and style
             suggestions. Whether you're drafting an email, crafting an article,
             or chatting online, our smart extension helps you communicate
@@ -38,7 +38,7 @@ const Hero = () => {
         <div className="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
           <div className="bg-hero"></div>
           <img
-            src="/src/assets/images/hero-grammarly.png"
+            src="./src/assets/images/hero-grammarly.png"
             alt=""
             className="relative z-10 lg:top-24 xl:top-0 overflow-x-visible"
           />
