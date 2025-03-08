@@ -43,4 +43,13 @@ body {
     clip-path: ellipse(150vw 100% at 0% 50%);
     @apply absolute rounded-l-full top-52 bg-softBlue;
   }
+  .bg-tabs {
+    width: 100%;
+    height: 300px;
+    right: 60%; /* Ensure it starts from the right */
+    clip-path: ellipse(
+      150vw 100% at 100% 50%
+    ); /* Shift the focal point to the right */
+    @apply absolute rounded-r-full top-60 bg-softBlue;
+  }
 }
