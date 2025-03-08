@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="flex justify-center space-x-4 lg:justify-start">
             <a
               href=""
-              className="p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-softBlue border-2 md:text-base hover:bg-white hover:text-softBlue"
+              className="p-4 text-sm font-semibold text-white bg-chromeGreen rounded shadow-md border-chromeGreen border-2 md:text-base hover:bg-white hover:text-chromeGreen"
             >
               Get It On Chrome
             </a>
@@ -49,14 +49,3 @@ const Hero = () => {
 };
 
 export default Hero;
-{
-  /* <div className="flex justify-center space-x-4 lg:justify-start">
-            <button className="px-6 py-3 text-white bg-cyan-600 rounded-lg">
-              Get it on Chrome
-            </button>
-            <button className="px-6 py-3 text-cyan-600 bg-gray-100 rounded-lg">
-              Get it on Firefox
-            </button>
-          </div>
-        </div> */
-}
