@@ -54,11 +54,7 @@ const Boxes = () => {
           <div className="flex flex-col w-full py-6 space-y-4  bg-gradient-to-b from-[#0fa37e] to-[#5fd5b1] text-center rounded-lg shadow-lg md:w-1/3">
             {/* IMAGE */}
             <div className="flex justify-center items-center gap-2">
-              <img
-                className="w-12 h-12"
-                src="/public/images/logo-opera.svg"
-                alt=""
-              />
+              <img className="w-12 h-12" src="/images/logo-opera.svg" alt="" />
               {/* TEXT */}
               <h5 className=" text-xl font-bold">Opera</h5>
             </div>

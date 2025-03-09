@@ -21,12 +21,12 @@ const Newsletter = () => {
             <input
               type="email"
               placeholder="Enter your email address"
-              className="flex-1 px-6 pt-3 pb-2 mb-4 rounded-lg border-1 border-white focus:outline-none md:mr-3 md:mb-0"
+              className="px-2 pt-3 pb-2 mb-4 rounded-lg border-1 border-white focus:outline-none md:mr-3 md:mb-0 overflow-x-hidden"
             />
             <input
               type="submit"
               className="inline-flex px-6 py-3 font-semibold text-center text-white duration-200 transform rounded-lg cursor-pointer focus:outline-none hover:text-chromeGreen hover:bg-white bg-chromeGreen"
-              value="Contact Us"
+              value="Subscribe"
             />
           </div>
         </form>
