@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 @theme {
   /* Breakpoints */
   --breakpoint-sm: 30rem; /* 480px */
@@ -25,13 +26,16 @@
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
-  @apply container list-none bg-grammarlyDarkGreen text-grammarlyGray;
+  @apply  list-none bg-grammarlyDarkGreen text-grammarlyGray;
 }
 @utility container {
   width: 80%;
   margin-inline: auto;
 }
-
+.section-spacing
+{
+  @apply my-16;
+}
 .rubik {
   font-family: var(--font-rubik);
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="relative p-6">
+    <nav className="container relative p-6">
       {/* Flex for Nav Items */}
       <div className="flex items-center justify-between space-x-20 my-6">
         {/* Logo image to be on top always */}

@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section>
+    <section className="container">
       <div className="flex flex-col-reverse p-6 lg:flex-row lg:mb-0">
         {/* Content */}
 

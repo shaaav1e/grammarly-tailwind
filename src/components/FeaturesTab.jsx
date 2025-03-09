@@ -30,7 +30,7 @@ const FeaturesTab = () => {
   ];
 
   return (
-    <section>
+    <section className="container">
       <div className="relative my-6 mb-32 mt-12 px-6 mx-auto">
         <div className="bg-tabs"></div>
 
