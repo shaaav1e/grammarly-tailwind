@@ -5,7 +5,8 @@ const Newsletter = () => {
     <section className="bg-gradient-to-b from-[#0fa37e] to-[#5fd5b1]">
       <div className="max-w-lg mx-auto py-24">
         <p className="mb-6 text-lg tracking-widest text-center text-white uppercase">
-          36000+ ALREADY JOINED
+          <span className="lg:text-3xl lg:font-bold">36000+ </span>ALREADY
+          JOINED
         </p>
         <h2 className="px-3 mb-6 text-3xl font-semibold text-center text-white md:text-4xl">
           Stay up-to-date with what we're doing

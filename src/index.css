@@ -23,6 +23,10 @@
   /* Font Family */
   --font-rubik: "Rubik", sans-serif;
 }
+html
+{
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;

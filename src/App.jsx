@@ -6,7 +6,9 @@ import FeaturesTab from "./components/FeaturesTab";
 import Boxes from "./components/Boxes";
 import Faq from "./components/Faq";
 import Newsletter from "./components/Newsletter";
-
+import Footer from "./components/Footer";
+import Pricing from "./components/Pricing";
+import Testimonials from "./components/Testimonials";
 function App() {
   return (
     <>
@@ -17,7 +19,10 @@ function App() {
       <FeaturesTab />
       <Boxes />
       <Faq />
+      <Pricing />
+      <Testimonials />
       <Newsletter />
+      <Footer />
     </>
   );
 }

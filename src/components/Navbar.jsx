@@ -11,7 +11,7 @@ const Navbar = () => {
         </div>
         <div className="hidden items-center space-x-10 uppercase text-grayish-Blue md:flex">
           <a href="#" className="tracking-wideset ">
-            Features
+            Pricing
           </a>
           <a href="#" className="tracking-wideset ">
             Download
