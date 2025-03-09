@@ -21,11 +21,7 @@ const Boxes = () => {
           <div className="flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:w-1/3">
             {/* IMAGE */}
             <div className="flex justify-center items-center gap-4">
-              <img
-                className="w-12 h-12"
-                src="./src/assets/images/logo-chrome.svg"
-                alt=""
-              />
+              <img className="w-12 h-12" src="/images/logo-chrome.svg" alt="" />
               {/* TEXT */}
               <h5 className=" text-xl font-bold">Extension</h5>
             </div>
@@ -38,7 +34,7 @@ const Boxes = () => {
             <div className="flex justify-center items-center gap-4">
               <img
                 className="w-12 h-12"
-                src="./src/assets/images/windows-logo.png"
+                src="/images/windows-logo.png"
                 alt=""
               />
               {/* TEXT */}
@@ -51,11 +47,7 @@ const Boxes = () => {
           <div className="flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:w-1/3">
             {/* IMAGE */}
             <div className="flex justify-center items-center gap-4">
-              <img
-                className="w-16 h-12"
-                src="./src/assets/images/mac-logo.png"
-                alt=""
-              />
+              <img className="w-16 h-12" src="/images/mac-logo.png" alt="" />
               {/* TEXT */}
               <h5 className=" text-xl font-bold">MAC</h5>
             </div>

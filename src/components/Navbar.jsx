@@ -7,11 +7,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between space-x-20 my-6">
         {/* Logo image to be on top always */}
         <div className="z-30">
-          <img
-            className="w-14 h-20"
-            src="/public/images/grammarly-logo.svg"
-            alt=""
-          />
+          <img className="w-14 h-20" src="/images/grammarly-logo.svg" alt="" />
         </div>
         <div className="hidden items-center space-x-10 uppercase text-grayish-Blue md:flex">
           <a href="#" className="tracking-wideset ">
