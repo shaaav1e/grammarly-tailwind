@@ -2,7 +2,7 @@ import React from "react";
 
 const Newsletter = () => {
   return (
-    <section className="bg-gradient-to-b from-[#0fa37e] to-[#5fd5b1]">
+    <section className="bg-gradient-to-b from-[#0fa37e] to-[#5fd5b1] mt-16">
       <div className="max-w-lg mx-auto py-24">
         <p className="mb-6 text-lg tracking-widest text-center text-white uppercase">
           <span className="lg:text-3xl lg:font-bold">36000+ </span>ALREADY
