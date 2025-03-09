@@ -9,21 +9,21 @@ const FeaturesTab = () => {
     {
       id: 1,
       title: "Grammar & Spelling",
-      image: "./src/assets/images/grammarly-1.webp",
+      image: "/public/images/grammarly-1.webp",
       description:
         "Avoid embarrassing mistakes with real-time grammar and spelling corrections.",
     },
     {
       id: 2,
       title: "Simplify Your Tone",
-      image: "./src/assets/images/grammarly-2.webp",
+      image: "/public/images/grammarly-2.webp",
       description:
         "Make your writing more concise and clear with tone adjustment suggestions.",
     },
     {
       id: 3,
       title: "Style & Clarity",
-      image: "./src/assets/images/grammarly-3.webp",
+      image: "/public/images/grammarly-3.webp",
       description:
         "Enhance readability with smart style and clarity improvements.",
     },
