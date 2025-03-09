@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="flex justify-center items-center gap-4">
         <img
           className="w-12 h-12"
-          src="/public/images/grammarly-logo.svg"
-          alt=""
+          src="/images/grammarly-logo.svg"
+          alt="Grammarlylogo"
         />
         <div className="flex justify-center items-center gap-4">
           <a href="#">

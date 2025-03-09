@@ -46,12 +46,39 @@ body {
 .redy {
   color: var(--custom-red);
 }
+/* ^ Instead of defining a custom variable like --custom-red and manually mapping it in Tailwind as redy, using a name like --color-redish allows Tailwind to automatically recognize and apply it. This way, you can simply write text-redish or bg-redish in Tailwind, and it will work seamlessly.*/
+
 .btn
 {
   @apply px-8 py-2 text-white bg-chromeGreen border-2 border-chromeGreen rounded-lg shadow-md  hover:bg-white hover:text-chromeGreen;
 }
+.google-btn {
+  @apply bg-white  rounded-sm box-border 
+         text-gray-900 cursor-pointer text-sm 
+         px-6 py-2 flex items-center justify-between max-w-[400px] min-w-min
+         transition duration-200 ease-in-out shadow-sm hover:shadow-md;
+}
 
-/* ^ Instead of defining a custom variable like --custom-red and manually mapping it in Tailwind as redy, using a name like --color-redish allows Tailwind to automatically recognize and apply it. This way, you can simply write text-redish or bg-redish in Tailwind, and it will work seamlessly.*/
+.google-btn:disabled {
+  @apply cursor-default bg-white/50 border-gray-200 opacity-50;
+}
+
+.google-btn-icon {
+  @apply h-5 w-5 mr-3;
+}
+
+.google-btn-content {
+  @apply flex-grow font-medium truncate;
+}
+
+.google-btn-state {
+  @apply absolute inset-0 opacity-0 transition-opacity;
+}
+
+.google-btn:active .google-btn-state,
+.google-btn:focus .google-btn-state {
+  @apply bg-black opacity-10;
+}
 
 @media (min-width: 1020px) {
   .bg-hero {
