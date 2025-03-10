@@ -6,7 +6,7 @@ const Pricing = () => {
       <div className="flex items-center justify-center">
         <div className="flex flex-col my-6 space-y-6 md:space-y-6 lg:flex-row lg:space-x-4 lg:space-y-0">
           {/* Col 1 - Free */}
-          <div className="rounded-xl text-black bg-green-200 lg:w-1/3 flex flex-col">
+          <div className="rounded-xl text-black bg-gradient-to-r from-green-700 to-green-200 lg:w-1/3 flex flex-col">
             {/* Upper Part */}
             <div className="p-6 mx-3 mt-3 mb-3 rounded-sm bg-white flex-1 flex flex-col">
               <div className="">
@@ -106,7 +106,7 @@ const Pricing = () => {
             </div>
           </div>
           {/* Col 3 - Enterprise */}
-          <div className="rounded-xl text-black bg-green-200 lg:w-1/3 flex flex-col">
+          <div className="rounded-xl text-black bg-gradient-to-l from-green-700 to-green-200 lg:w-1/3 flex flex-col">
             {/* Upper Part */}
             <div className="p-6 mx-3 mt-3 mb-3 rounded-sm bg-white flex-1 flex flex-col">
               <div className="">

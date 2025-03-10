@@ -25,7 +25,7 @@ const Hero = () => {
             >
               Get It On Chrome
             </a> */}
-            <button className="google-btn w-fit mx-auto md:mx-0">
+            <button className="google-btn w-fit mx-auto md:mx-0 pointer-events-none">
               <div className="google-btn-state"></div>
               <div className="flex items-center w-full">
                 <div className="google-btn-icon">
@@ -69,7 +69,7 @@ const Hero = () => {
         </div>
 
         {/* Image */}
-        <div className="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
+        <div className="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2 pointer-events-none">
           <div className="bg-hero"></div>
           <img
             src="/images/hero-grammarly.png"
